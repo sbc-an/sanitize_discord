@@ -1,0 +1,52 @@
+discord.com##*:style(border-radius: 0% !important)
+
+discord.com#?#[class*="reaction_"]:-abp-has([class*="burstGlow_"])
+discord.com#?#li:-abp-has(> button > div[class*="emojiLockIconContainer_"])
+discord.com#?#div:-abp-has(> div > div > div > div[class*="categoryItemLockIconContainer_"])
+discord.com##[class*="channelAppLauncher_"]
+discord.com##div[class*="buttonsInner_"] > div[class*="separator_"]
+discord.com##div[class*="buttonsInner_"] > div[aria-label^="Add Reaction"]
+discord.com##div[class*="buttonsInner_"] > div[aria-label^="Click to react with "]
+discord.com##div[class*="buttonsInner_"] > div[aria-label^="Forward"]
+discord.com#?#div[class*="groupStart_"] > div[class*="wrapper_"]:-abp-has([class*="blockedSystemMessage_"])
+discord.com##[class*="avatarDecoration_"]
+discord.com##div[class*="imageContainer_"] > div[class*="hoverButtonGroup_"] > div[aria-label*="Edit Image with Apps"]
+discord.com##div[aria-label^="Message Actions"] > div > div[class*="wrapper_"]
+discord.com#?#[class*="container_"]:-abp-has(> button[aria-label^="Send a gift"])
+discord.com#?#[class*="expression-picker-chat-input-button"]:-abp-has(> button[aria-label^="Open"])
+discord.com#?#ul[aria-label^="Direct Messages"] > li[class*="channel_"]:-abp-has(> div > a > div[class*="avatarWithText_"])
+discord.com#?#div[class*="itemsContainer_"] > div[class*="scroller_"] > div[class*="listItem_"]:-abp-has(> div[class*="pill_"])
+discord.com#?#div[class*="contentColumn_"][role^="tabpanel"] > div[class*="container_"]:-abp-has(> div[class*="artContainer_"][role^="presentation"])
+discord.com##[class*="upsellContainer_"]
+discord.com##[class*="premiumFeatureBorder_"]
+discord.com##[class*="nitroTopDividerContainer_"]
+discord.com##[class*="categorySectionNitroLocked_"]
+discord.com##[class*="gifFavoriteButton_"]
+discord.com#?#[class*="selectionGroup_"]:-abp-has([aria-label*="Exclusive to Nitro"])
+discord.com#?#[class*="customizationSection_"]:-abp-has(> h3:-abp-contains(Avatar Decoration))
+discord.com#?#[class*="customizationSection_"]:-abp-has(> h3:-abp-contains(Profile Effect))
+discord.com##[class*="upsellOverlayContainer_"]
+discord.com##[aria-label*="Add Reaction"]
+discord.com##[aria-label*="Send a gift"]
+discord.com##svg[aria-label*="Server boosting"]
+discord.com#?#div[class*="children_"]:-abp-has(> div[aria-label*="Create Invite"])
+discord.com##[class*="basicChannelRowLink_"]
+discord.com#?#li:-abp-has(> div[data-list-item-id*="channels___boosts"])
+discord.com##[class*="notice_"][class*="colorPremium"]
+discord.com#?#form[class*="formWithLoadedChatInput_"]:-abp-has(> div[class*="wrapper_"] > div[class*="content_"])
+discord.com##[class*="voiceChannelsButton_"]
+discord.com#?#div[class*="reaction_"]:-abp-has(div[aria-label*=", 0 reactions, press to react"])
+discord.com##[class*="burstToggle_"]
+discord.com##[class*="diversitySelector_"]
+discord.com##[class*="profileEffects_"]
+discord.com#?#form[class*="formWithLoadedChatInput_"]:-abp-has(> div[class*="channelBottomBarArea_"] > div[class*="channelTextAreaDisabled_"])
+discord.com#?#mask[fill*="black"]:-abp-has(use[fill*="white"])
+discord.com#?#div[class*="container_"][class*="thin_"][class*="scrollerBase_"] > div[class*="activity_"]:-abp-has(> div[class*="channelActivityContainer__"]):-abp-has(> div[class*="activityActionsContainer__"] > div > button)
+discord.com#?#div[class*="member_"][class*="container_"][class*="clickable"]:-abp-has(span[class*="username_"] > span:-abp-contains(!))
+discord.com#?#div[class*="layerContainer_"] > div[class*="clickTrapContainer_"] > div[id*="popout_"]:-abp-has(> div[class*="animatorBottom_"] > div[class*="container__"])
+discord.com##[class*="threadSuggestionBar__"]
+discord.com##[class*="modeConnected__"][class*="selectedChannel_"][class*="wrapper__"][class*="iconVisibility_"] > div > [class*="link__"] > [class*="linkBottom__"]
+discord.com##[class*="shinyButton__"]
+discord.com##[class*="truncatingText_"] > [class*="text-sm\/normal_"]
+discord.com##*:style(font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', 'Nirmala UI', 'Yu Gothic' !important)
+discord.com##[class*="rootWithShadow__"][class*="fullscreenOnMobile__"]
