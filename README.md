@@ -9,3 +9,7 @@ a few of the features:
 - Remove redundant UI (functionality still accessible through conventional menu)
 - Remove useless UI (i.e. message bar in channels you have no permission to message in)
 - Unrounds everything so full png is always visible
+
+herr derr discord tos brrr
+- web browser functionalities are NOT a "discord client"
+- by claiming utilizing web browser functionality as discord tos violation, you effectively claim the web browser _as_ "discord client", in other words discord inc's ownership of the web browser, which honestly would be a very fun legal dispute against a massive megacorporation
