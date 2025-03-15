@@ -48,5 +48,4 @@ discord.com##[class*="threadSuggestionBar__"]
 discord.com##[class*="modeConnected__"][class*="selectedChannel_"][class*="wrapper__"][class*="iconVisibility_"] > div > [class*="link__"] > [class*="linkBottom__"]
 discord.com##[class*="shinyButton__"]
 discord.com##[class*="truncatingText_"] > [class*="text-sm\/normal_"]
-discord.com##*:style(font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', 'Nirmala UI', 'Yu Gothic' !important)
-discord.com##[class*="rootWithShadow__"][class*="fullscreenOnMobile__"]
+discord.com##[class*="contentPremium_"]
