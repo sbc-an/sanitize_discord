@@ -49,3 +49,10 @@ discord.com##[class*="modeConnected__"][class*="selectedChannel_"][class*="wrapp
 discord.com##[class*="shinyButton__"]
 discord.com##[class*="truncatingText_"] > [class*="text-sm\/normal_"]
 discord.com##[class*="contentPremium_"]
+discord.com#?#div[role="gridcell"][id*="sticker-picker-grid-"]:-abp-has(> div[class*="sticker_"] > div > div[class*="stickerUnsendable_"])
+discord.com##div[id*="sticker-picker-grid"] > div > div[class*="scrollerBase_"] > [class*="listItems_"] > div > div[class*="row_"]:style(height: auto !important)
+discord.com##div[aria-label*="Subscriber since "]
+discord.com##div[aria-label*="Server Boosting since "]
+discord.com##div[aria-label*="Completed a Quest"]
+discord.com##div[aria-label*="HypeSquad"]
+discord.com##div[class*="custom-theme-background"]:style(padding: 0px !important)
