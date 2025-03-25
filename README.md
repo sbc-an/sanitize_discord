@@ -1,6 +1,6 @@
 # sanitize_discord
 An attempt at making Discord less insufferable.
-Made and tested for [UBO](https://github.com/gorhill/uBlock), but it only uses element property matching, -abp-has(), and -abp-contains() so may work with other engines.
+Made and tested for [UBO](https://github.com/gorhill/uBlock), but it may work with other engines.
 
 a few of the features:
 - Blocked means blocked
