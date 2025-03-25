@@ -56,3 +56,5 @@ discord.com##div[aria-label*="Server Boosting since "]
 discord.com##div[aria-label*="Completed a Quest"]
 discord.com##div[aria-label*="HypeSquad"]
 discord.com##div[class*="custom-theme-background"]:style(padding: 0px !important)
+discord.com##.visual-refresh:style(--custom-app-top-bar-height: 0px !important)
+discord.com##[class*="trailing_"]:style(z-index: 9999 !important)
