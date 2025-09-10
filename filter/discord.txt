@@ -8,7 +8,6 @@ discord.com##div[class*="buttonsInner_"] > div[class*="separator_"]
 discord.com##div[class*="buttonsInner_"] > div[aria-label^="Add Reaction"]
 discord.com##div[class*="buttonsInner_"] > div[aria-label^="Click to react with "]
 discord.com##div[class*="buttonsInner_"] > div[aria-label^="Forward"]
-discord.com#?#div[class*="groupStart_"] > div[class*="wrapper_"]:-abp-has([class*="blockedSystemMessage_"])
 discord.com##[class*="avatarDecoration_"]
 discord.com##div[class*="imageContainer_"] > div[class*="hoverButtonGroup_"] > div[aria-label*="Edit Image with Apps"]
 discord.com##div[aria-label^="Message Actions"] > div > div[class*="wrapper_"]
@@ -42,8 +41,6 @@ discord.com##[class*="profileEffects_"]
 discord.com#?#form[class*="formWithLoadedChatInput_"]:-abp-has(> div[class*="channelBottomBarArea_"] > div[class*="channelTextAreaDisabled_"])
 discord.com#?#mask[fill*="black"]:-abp-has(use[fill*="white"])
 discord.com#?#div[class*="container_"][class*="thin_"][class*="scrollerBase_"] > div[class*="activity_"]:-abp-has(> div[class*="channelActivityContainer__"]):-abp-has(> div[class*="activityActionsContainer__"] > div > button)
-discord.com#?#div[class*="member_"][class*="container_"][class*="clickable"]:-abp-has(span[class*="name__"]:-abp-contains(!))
-discord.com#?#div[class*="member_"][class*="container_"][class*="clickable"]:-abp-has(span[class*="name__"]:-abp-contains("\""))
 discord.com#?#div[class*="layerContainer_"] > div[class*="clickTrapContainer_"] > div[id*="popout_"]:-abp-has(> div[class*="animatorBottom_"] > div[class*="container__"])
 discord.com##[class*="threadSuggestionBar__"]
 discord.com##[class*="modeConnected__"][class*="selectedChannel_"][class*="wrapper__"][class*="iconVisibility_"] > div > [class*="link__"] > [class*="linkBottom__"]
@@ -70,11 +67,34 @@ discord.com#?#div[class*="item_"]:-abp-contains(Gift Inventory)
 discord.com#?#div[class*="item_"]:-abp-contains(Billing)
 discord.com#?#div[class*="item_"]:-abp-contains(Merch)
 discord.com#?#div[class*="item_"]:-abp-contains(HypeSquad)
-discord.com##[class*="container_"]:style(--custom-chat-input-margin-bottom: 8px !important)
+discord.com##[class*="container_"]:style(--custom-chat-input-margin-bottom: 0px !important)
 discord.com##.visual-refresh:style(--custom-app-top-bar-height: 0px !important)
 discord.com##[class*="trailing_"]:style(z-index: 9999 !important)
-discord.com##[class*="typing_"][class*="base_"]:style(height: 14px !important)
+discord.com##[class*="typing_"][class*="base_"]:style(height: 5px !important)
 discord.com#?#div[class*="wrapper__"][role*="button"]:-abp-has(> div[class*="hiddenWhileNotHovered__"] > div[class*="dismiss__"])
 discord.com#?#div[class*="item_"]:-abp-has(img[class*="clickerGameIcon__"])
 discord.com##foreignObject:style(mask: none !important)
 discord.com##div[class*="memberInner__"] > div[class*="avatar__"] > div[class*="wrapper__"] > svg > rect:style(x: 30 !important)
+discord.com##div[class*="memberInner__"] > div[class*="avatar__"] > div[class*="wrapper__"] > svg > g > rect:style(x: 30 !important)
+discord.com##div[class*="memberInner__"] > div[class*="avatar__"] > div[class*="wrapper__"] > svg > g > svg:style(x: 8 !important)
+discord.com#?#a[class*="link__"][data-list-item-id*="channels___"] > div[class*="linkTop__"] > div[class*="children__"]:-abp-has(> div[aria-label*="Invite"])
+discord.com##[class*="pictureInPicture__"]
+discord.com#?#div[class*="member__"][class*="container__"][class*="clickable__"][role="listitem"] > div[class*="childContainer__"] > div[class*="container__"]:-abp-has(> div[class*="videoContainer__"])
+discord.com##[class*="embedProvider__"]
+discord.com##[class*="gradientContainer_"]
+discord.com#?#a[data-list-item-id*="channels___"] > div[class*="linkBottom__"]:-abp-has(div[class*="statusDiv__"])
+discord.com##[class*="upsell"]
+discord.com#?#form[class*="formWithLoadedChatInput_"]:-abp-has(> div > div[class*="channelBottomBarArea_"] > div[class*="channelTextAreaDisabled__"])
+discord.com##button[class*="refreshVoiceChannelsButton__"]
+discord.com##div[class*="notice__"][class*="colorBrand__"]
+discord.com##div[class*="actionButtons_"] > button[aria-label*="Forward"]
+discord.com###channel-attach-upload-text-as-file
+discord.com##.containerWithMargin__0d0f9.container__0d0f9
+discord.com##.container__0d0f9
+discord.com##.trailing_c38106 > .anchorUnderlineOnHover_edefb8.anchor_edefb8
+discord.com##.grow__201d5.sizeSmall__201d5.colorBrand__201d5.lookFilled__201d5.button__201d5
+discord.com##[class*="popoverContentWithGradient_"]
+discord.com##[class*="scrollerSpacer__"]:style(height: 24px !important)
+discord.com##div[class*="inTextChannel_"]:style(top: -3px !important)
+discord.com#?#div[class*="groupStart__"]:-abp-has(div[class*="blockedSystemMessage__"])
+discord.com#?#div[class*="groupStart__"]:-abp-has(div[class*="blockedSystemMessage__"]):style(margin-top: 0px !important)
