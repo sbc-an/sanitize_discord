@@ -96,5 +96,11 @@ discord.com##.grow__201d5.sizeSmall__201d5.colorBrand__201d5.lookFilled__201d5.b
 discord.com##[class*="popoverContentWithGradient_"]
 discord.com##[class*="scrollerSpacer__"]:style(height: 24px !important)
 discord.com##div[class*="inTextChannel_"]:style(top: -3px !important)
-discord.com#?#div[class*="groupStart__"]:-abp-has(div[class*="blockedSystemMessage__"])
+discord.com##div[class*="inTextChannel_"]:style(left: 20px !important)
+discord.com#?#div[class*="wrapper_"][class*="cozy_"][class*="zalgo_"]:-abp-has(div[class*="blockedSystemMessage__"])
+discord.com#?#div[class*="groupStart__"]:style(margin-top: 6px !important)
 discord.com#?#div[class*="groupStart__"]:-abp-has(div[class*="blockedSystemMessage__"]):style(margin-top: 0px !important)
+discord.com##[class*="displayNameStylesSection_"]
+discord.com#?#div[class*="customizationSection_"]:-abp-has(h3:-abp-contains(Nameplate))
+discord.com#?#div[class*="container_"]:-abp-has(> div[class*="textContent_"] > h3:-abp-contains(look))
+discord.com##[class*="colorThemesBackground_"]
