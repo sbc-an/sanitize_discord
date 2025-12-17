@@ -1,55 +1,55 @@
 discord.com##*:style(border-radius: 0% !important)
 
-discord.com#?#[class*="reaction_"]:-abp-has([class*="burstGlow_"])
-discord.com#?#li:-abp-has(> button > div[class*="emojiLockIconContainer_"])
-discord.com#?#div:-abp-has(> div > div > div > div[class*="categoryItemLockIconContainer_"])
-discord.com##[class*="channelAppLauncher_"]
-discord.com##div[class*="buttonsInner_"] > div[class*="separator_"]
-discord.com##div[class*="buttonsInner_"] > div[aria-label^="Add Reaction"]
-discord.com##div[class*="buttonsInner_"] > div[aria-label^="Click to react with "]
-discord.com##div[class*="buttonsInner_"] > div[aria-label^="Forward"]
-discord.com##[class*="avatarDecoration_"]
-discord.com##div[class*="imageContainer_"] > div[class*="hoverButtonGroup_"] > div[aria-label*="Edit Image with Apps"]
-discord.com##div[aria-label^="Message Actions"] > div > div[class*="wrapper_"]
-discord.com#?#[class*="container_"]:-abp-has(> button[aria-label^="Send a gift"])
+discord.com#?#[class*="reaction"]:-abp-has([class*="burstGlow"])
+discord.com#?#li:-abp-has(> button > div[class*="emojiLockIconContainer"])
+discord.com#?#div:-abp-has(> div > div > div[class*="categoryItemLockIconContainer"])
+discord.com##[class*="channelAppLauncher"]
+discord.com##div[class*="buttonsInner"] > div[class*="separator"]
+discord.com#?#div[aria-label*="Message Actions"] > div[class*="buttonsInner"][class*="popover"] > span:-abp-has(> div[aria-label*="Add Reaction"])
+discord.com#?#div[aria-label*="Message Actions"] > div[class*="buttonsInner"][class*="popover"] > span:-abp-has(> div[aria-label*="Click to react"])
+discord.com#?#div[aria-label*="Message Actions"] > div[class*="buttonsInner"][class*="popover"] > span:-abp-has(> div[aria-label*="Forward"])
+discord.com##[class*="avatarDecoration"]
+discord.com#?#span:-abp-has(> div[aria-label*="Edit Image with Apps"])
+discord.com##div[aria-label^="Message Actions"] > div > div[class*="wrapper"]
+discord.com#?#[class*="container"]:-abp-has(> button[aria-label^="Send a gift"])
 discord.com#?#[class*="expression-picker-chat-input-button"]:-abp-has(> button[aria-label^="Open"])
-discord.com#?#ul[aria-label^="Direct Messages"] > li[class*="channel_"]:-abp-has(> div > a > div[class*="avatarWithText_"])
-discord.com#?#div[class*="itemsContainer_"] > div[class*="scroller_"] > div[class*="listItem_"]:-abp-has(> div[class*="pill_"])
-discord.com#?#div[class*="contentColumn_"][role^="tabpanel"] > div[class*="container_"]:-abp-has(> div[class*="artContainer_"][role^="presentation"])
-discord.com##[class*="upsellContainer_"]
-discord.com##[class*="premiumFeatureBorder_"]
-discord.com##[class*="nitroTopDividerContainer_"]
-discord.com##[class*="categorySectionNitroLocked_"]
-discord.com##[class*="gifFavoriteButton_"]
-discord.com#?#[class*="selectionGroup_"]:-abp-has([aria-label*="Exclusive to Nitro"])
-discord.com#?#[class*="customizationSection_"]:-abp-has(> h3:-abp-contains(Avatar Decoration))
-discord.com#?#[class*="customizationSection_"]:-abp-has(> h3:-abp-contains(Profile Effect))
-discord.com##[class*="upsellOverlayContainer_"]
+discord.com#?#ul[aria-label^="Direct Messages"] > li[class*="channel"]:-abp-has(> div > a > div[class*="avatarWithText"])
+discord.com#?#div[class*="itemsContainer"] > div[class*="scroller"] > div[class*="listItem"]:-abp-has(> div[class*="pill"])
+discord.com#?#div[class*="contentColumn"][role^="tabpanel"] > div[class*="container"]:-abp-has(> div[class*="artContainer"][role^="presentation"])
+discord.com##[class*="upsellContainer"]
+discord.com##[class*="premiumFeatureBorder"]
+discord.com##[class*="nitroTopDividerContainer"]
+discord.com##[class*="categorySectionNitroLocked"]
+discord.com##[class*="gifFavoriteButton"]
+discord.com#?#[class*="selectionGroup"]:-abp-has([aria-label*="Exclusive to Nitro"])
+discord.com#?#[class*="customizationSection"]:-abp-has(> h3:-abp-contains(Avatar Decoration))
+discord.com#?#[class*="customizationSection"]:-abp-has(> h3:-abp-contains(Profile Effect))
+discord.com##[class*="upsellOverlayContainer"]
 discord.com##[aria-label*="Add Reaction"]
 discord.com##[aria-label*="Send a gift"]
 discord.com##svg[aria-label*="Server boosting"]
-discord.com#?#div[class*="children_"]:-abp-has(> div[aria-label*="Create Invite"])
-discord.com##[class*="basicChannelRowLink_"]
+discord.com#?#div[class*="children"]:-abp-has(> div[aria-label*="Create Invite"])
+discord.com##[class*="basicChannelRowLink"]
 discord.com#?#li:-abp-has(> div[data-list-item-id*="channels___boosts"])
-discord.com##[class*="notice_"][class*="colorPremium"]
-discord.com#?#form[class*="formWithLoadedChatInput_"]:-abp-has(> div[class*="wrapper_"] > div[class*="content_"])
-discord.com##[class*="voiceChannelsButton_"]
-discord.com#?#div[class*="reaction_"]:-abp-has(div[aria-label*=", 0 reactions, press to react"])
-discord.com##[class*="burstToggle_"]
-discord.com##[class*="diversitySelector_"]
-discord.com##[class*="profileEffects_"]
-discord.com#?#form[class*="formWithLoadedChatInput_"]:-abp-has(> div[class*="channelBottomBarArea_"] > div[class*="channelTextAreaDisabled_"])
+discord.com##[class*="notice"][class*="colorPremium"]
+discord.com#?#form[class*="formWithLoadedChatInput"]:-abp-has(> div[class*="wrapper"] > div[class*="content"])
+discord.com##[class*="voiceChannelsButton"]
+discord.com#?#div[class*="reaction"]:-abp-has(div[aria-label*=", 0 reactions, press to react"])
+discord.com##[class*="burstToggle"]
+discord.com##[class*="diversitySelector"]
+discord.com##[class*="profileEffects"]
+discord.com#?#form[class*="formWithLoadedChatInput"]:-abp-has(> div[class*="channelBottomBarArea"] > div[class*="channelTextAreaDisabled"])
 discord.com#?#mask[fill*="black"]:-abp-has(use[fill*="white"])
-discord.com#?#div[class*="container_"][class*="thin_"][class*="scrollerBase_"] > div[class*="activity_"]:-abp-has(> div[class*="channelActivityContainer__"]):-abp-has(> div[class*="activityActionsContainer__"] > div > button)
-discord.com#?#div[class*="layerContainer_"] > div[class*="clickTrapContainer_"] > div[id*="popout_"]:-abp-has(> div[class*="animatorBottom_"] > div[class*="container__"])
-discord.com##[class*="threadSuggestionBar__"]
-discord.com##[class*="modeConnected__"][class*="selectedChannel_"][class*="wrapper__"][class*="iconVisibility_"] > div > [class*="link__"] > [class*="linkBottom__"]
-discord.com##[class*="shinyButton__"]
-discord.com##[class*="truncatingText_"] > [class*="text-sm\/normal_"]
-discord.com##[class*="contentPremium_"]
-discord.com##[class*="newMemberBadge_"]
-discord.com#?#div[role="gridcell"][id*="sticker-picker-grid-"]:-abp-has(> div[class*="sticker_"] > div > div[class*="stickerUnsendable_"])
-discord.com##div[id*="sticker-picker-grid"] > div > div[class*="scrollerBase_"] > [class*="listItems_"] > div > div[class*="row_"]:style(height: auto !important)
+discord.com#?#div[class*="container"][class*="thin"][class*="scrollerBase"] > div[class*="activity"]:-abp-has(> div[class*="channelActivityContainer"]):-abp-has(> div[class*="activityActionsContainer"] > div > button)
+discord.com#?#div[class*="layerContainer"] > div[class*="clickTrapContainer"] > div[id*="popout"]:-abp-has(> div[class*="animatorBottom"] > div[class*="container"])
+discord.com##[class*="threadSuggestionBar"]
+discord.com##[class*="modeConnected"][class*="selectedChannel"][class*="wrapper"][class*="iconVisibility"] > div > [class*="link"] > [class*="linkBottom"]
+discord.com##[class*="shinyButton"]
+discord.com##[class*="truncatingText"] > [class*="text-sm\/normal"]
+discord.com##[class*="contentPremium"]
+discord.com##[class*="newMemberBadge"]
+discord.com#?#div[role="gridcell"][id*="sticker-picker-grid-"]:-abp-has(> div[class*="sticker"] > div > div[class*="stickerUnsendable"])
+discord.com##div[id*="sticker-picker-grid"] > div > div[class*="scrollerBase"] > [class*="listItems"] > div > div[class*="row"]:style(height: auto !important)
 discord.com##div[aria-label*="Subscriber since "]
 discord.com##div[aria-label*="Server Boosting since "]
 discord.com##div[aria-label*="Completed a Quest"]
@@ -57,50 +57,76 @@ discord.com##div[aria-label*="HypeSquad"]
 discord.com##div[class*="custom-theme-background"]:style(padding: 0px !important)
 discord.com#?#div:-abp-has(> svg[aria-label*="Server Boosting since "])
 discord.com#?#div[role*="group"]:-abp-has(> div[id*="guild-header-popout-premium-subscribe"])
-discord.com##div[class*="guildIconV2Container__"]
-discord.com##div[id*="popout_"] > div > div > div > div > footer > div > div[class*="themedBackground__"] > div > div > [class*="expression-picker-chat-input-button"]
-discord.com#?#div[class*="header_"]:-abp-has(> div:-abp-contains(Payment Settings))
-discord.com##div[class*="premiumTab__"]
-discord.com#?#div[class*="item_"]:-abp-contains(Server Boost)
-discord.com#?#div[class*="item_"]:-abp-contains(Subscriptions)
-discord.com#?#div[class*="item_"]:-abp-contains(Gift Inventory)
-discord.com#?#div[class*="item_"]:-abp-contains(Billing)
-discord.com#?#div[class*="item_"]:-abp-contains(Merch)
-discord.com#?#div[class*="item_"]:-abp-contains(HypeSquad)
-discord.com##[class*="container_"]:style(--custom-chat-input-margin-bottom: 0px !important)
+discord.com##div[class*="guildIconV2Container"]
+discord.com##div[id*="popout"] > div > div > div > div > footer > div > div[class*="themedBackground"] > div > div > [class*="expression-picker-chat-input-button"]
+discord.com#?#div[class*="header"]:-abp-has(> div:-abp-contains(Payment Settings))
+discord.com##div[class*="premiumTab"]
+discord.com#?#div[class*="item"]:-abp-contains(Server Boost)
+discord.com#?#div[class*="item"]:-abp-contains(Subscriptions)
+discord.com#?#div[class*="item"]:-abp-contains(Gift Inventory)
+discord.com#?#div[class*="item"]:-abp-contains(Billing)
+discord.com#?#div[class*="item"]:-abp-contains(Merch)
+discord.com#?#div[class*="item"]:-abp-contains(HypeSquad)
+discord.com##[class*="container"]:style(--custom-chat-input-margin-bottom: 0px !important)
 discord.com##.visual-refresh:style(--custom-app-top-bar-height: 0px !important)
-discord.com##[class*="trailing_"]:style(z-index: 9999 !important)
-discord.com##[class*="typing_"][class*="base_"]:style(height: 5px !important)
-discord.com#?#div[class*="wrapper__"][role*="button"]:-abp-has(> div[class*="hiddenWhileNotHovered__"] > div[class*="dismiss__"])
-discord.com#?#div[class*="item_"]:-abp-has(img[class*="clickerGameIcon__"])
+discord.com##[class*="trailing"]:style(z-index: 9999 !important)
+discord.com##[class*="typing"][class*="base"]:style(height: 5px !important)
+discord.com#?#div[class*="wrapper"][role*="button"]:-abp-has(> div[class*="hiddenWhileNotHovered"] > div[class*="dismiss"])
+discord.com#?#div[class*="item"]:-abp-has(img[class*="clickerGameIcon"])
 discord.com##foreignObject:style(mask: none !important)
-discord.com##div[class*="memberInner__"] > div[class*="avatar__"] > div[class*="wrapper__"] > svg > rect:style(x: 30 !important)
-discord.com##div[class*="memberInner__"] > div[class*="avatar__"] > div[class*="wrapper__"] > svg > g > rect:style(x: 30 !important)
-discord.com##div[class*="memberInner__"] > div[class*="avatar__"] > div[class*="wrapper__"] > svg > g > svg:style(x: 8 !important)
-discord.com#?#a[class*="link__"][data-list-item-id*="channels___"] > div[class*="linkTop__"] > div[class*="children__"]:-abp-has(> div[aria-label*="Invite"])
-discord.com##[class*="pictureInPicture__"]
-discord.com#?#div[class*="member__"][class*="container__"][class*="clickable__"][role="listitem"] > div[class*="childContainer__"] > div[class*="container__"]:-abp-has(> div[class*="videoContainer__"])
-discord.com##[class*="embedProvider__"]
-discord.com##[class*="gradientContainer_"]
-discord.com#?#a[data-list-item-id*="channels___"] > div[class*="linkBottom__"]:-abp-has(div[class*="statusDiv__"])
+discord.com##div[class*="memberInner"] > div[class*="avatar"] > div[class*="wrapper"] > svg > rect:style(x: 30 !important)
+discord.com##div[class*="memberInner"] > div[class*="avatar"] > div[class*="wrapper"] > svg > g > rect:style(x: 30 !important)
+discord.com##div[class*="memberInner"] > div[class*="avatar"] > div[class*="wrapper"] > svg > g > svg:style(x: 8 !important)
+discord.com#?#a[class*="link"][data-list-item-id*="channels"] > div[class*="linkTop"] > div[class*="children"]:-abp-has(> div[aria-label*="Invite"])
+discord.com##[class*="pictureInPicture"]
+discord.com#?#div[class*="member"][class*="container"][role="listitem"] > div[class*="childContainer"] > div[class*="container"]:-abp-has(> div[class*="videoContainer"])
+discord.com#?#div[class*="-nameplated"] > div[style*="gradient"]
+discord.com##[class*="embedProvider"]
+discord.com##[class*="gradientContainer"]
+discord.com#?#a[data-list-item-id*="channels"] > div[class*="linkBottom"]:-abp-has(div[class*="statusDiv"])
 discord.com##[class*="upsell"]
-discord.com#?#form[class*="formWithLoadedChatInput_"]:-abp-has(> div > div[class*="channelBottomBarArea_"] > div[class*="channelTextAreaDisabled__"])
-discord.com##button[class*="refreshVoiceChannelsButton__"]
-discord.com##div[class*="notice__"][class*="colorBrand__"]
-discord.com##div[class*="actionButtons_"] > button[aria-label*="Forward"]
+discord.com#?#form[class*="formWithLoadedChatInput"]:-abp-has(> div > div[class*="channelBottomBarArea"] > div[class*="channelTextAreaDisabled"])
+discord.com##button[class*="refreshVoiceChannelsButton"]
+discord.com##div[class*="notice"][class*="colorBrand"]
+discord.com##div[class*="actionButtons"] > button[aria-label*="Forward"]
 discord.com###channel-attach-upload-text-as-file
-discord.com##.containerWithMargin__0d0f9.container__0d0f9
-discord.com##.container__0d0f9
-discord.com##.trailing_c38106 > .anchorUnderlineOnHover_edefb8.anchor_edefb8
-discord.com##.grow__201d5.sizeSmall__201d5.colorBrand__201d5.lookFilled__201d5.button__201d5
-discord.com##[class*="popoverContentWithGradient_"]
-discord.com##[class*="scrollerSpacer__"]:style(height: 24px !important)
-discord.com##div[class*="inTextChannel_"]:style(top: -3px !important)
-discord.com##div[class*="inTextChannel_"]:style(left: 20px !important)
-discord.com#?#div[class*="wrapper_"][class*="cozy_"][class*="zalgo_"]:-abp-has(div[class*="blockedSystemMessage__"])
-discord.com#?#div[class*="groupStart__"]:style(margin-top: 6px !important)
-discord.com#?#div[class*="groupStart__"]:-abp-has(div[class*="blockedSystemMessage__"]):style(margin-top: 0px !important)
-discord.com##[class*="displayNameStylesSection_"]
-discord.com#?#div[class*="customizationSection_"]:-abp-has(h3:-abp-contains(Nameplate))
-discord.com#?#div[class*="container_"]:-abp-has(> div[class*="textContent_"] > h3:-abp-contains(look))
-discord.com##[class*="colorThemesBackground_"]
+discord.com##[class*="popoverContentWithGradient"]
+discord.com##[class*="scrollerSpacer"]:style(height: 24px !important)
+discord.com##div[class*="inTextChannel"]:style(top: -3px !important)
+discord.com##div[class*="inTextChannel"]:style(left: 20px !important)
+discord.com#?#div[class*="wrapper"][class*="cozy"][class*="zalgo"]:-abp-has(div[class*="blockedSystemMessage"])
+discord.com#?#div[class*="groupStart"]:style(margin-top: 6px !important)
+discord.com#?#div[class*="groupStart"]:-abp-has(div[class*="blockedSystemMessage"]):style(margin-top: 0px !important)
+discord.com##[class*="displayNameStylesSection"]
+discord.com#?#div[class*="customizationSection"]:-abp-has(h3:-abp-contains(Nameplate))
+discord.com#?#div[class*="container"]:-abp-has(> div[class*="textContent"] > h3:-abp-contains(look))
+discord.com##[class*="colorThemesBackground"]
+discord.com##div[id*="channel-attach"] > div > div[id*="SLASH_COMMAND"]
+discord.com##[class*="assetWrapperMasked"]:style(mask: none !important)
+discord.com##[class*="notice"]
+discord.com#?#div[class*="wrapper"]:-abp-has(> div[class*="heroImage"])
+discord.com##div.expression-picker-chat-input-button:nth-of-type(2)
+discord.com#?#[class*="container"]:-abp-has(> div[role*="presentation"]):-abp-has(> button[class*="overlay-primary"])
+discord.com#?#[class*="customizationSection"]:-abp-has(> h2[class*="title"]:-abp-contains(Decoration))
+discord.com#?#[class*="customizationSection"]:-abp-has(> h2[class*="title"]:-abp-contains(Nameplate))
+discord.com#?#[class*="customizationSection"]:-abp-has(> h2[class*="title"]:-abp-contains(Effect))
+discord.com#?#[class*="container"]:-abp-has(> div[class*="textContent"]:-abp-contains(Nitro))
+discord.com#?#[class*="selectionGroup"]:-abp-contains(In-app Icon)
+discord.com#?#ul[aria-label*="Direct Messages"] > div:-abp-contains(Nitro)
+discord.com#?#ul[aria-label*="Direct Messages"] > div:-abp-contains(Quests)
+discord.com#?#[class*="container"][class*="overlay"]:-abp-has(> [class*="contentVertical"] > [class*="description"]:-abp-contains(accurate?))
+discord.com#?#div[class*="tooltip"]:-abp-contains(Alt+Click to)
+discord.com#?#div[class*="tooltip"]:-abp-has(> div[class*="tooltipPointer"][class*="tooltipPointerBg"]):-abp-has(> div[class*="tooltipPointer"]):-abp-has(> div[class*="tooltipContent"])
+discord.com#?#div[class*="expression-picker-chat-input-button"]:-abp-has(> div[class*="stickerButton"])
+discord.com#?#div[class*="buttonContainer"][class*="app-launcher-entrypoint"]
+discord.com#?#[class*="fullWidth"]:-abp-has(> [class*="buttonChildrenWrapper"]:-abp-contains(Get ))
+discord.com#?#div[class*="layerContainer"] > div[class*="container"]:-abp-has(> video)
+discord.com#?#form[class*="formWithLoadedChatInput"]:-abp-has(button:-abp-contains(Follow))
+discord.com#?#div[class*="containerWithMargin"][role*="button"]:-abp-has(div[class*="semibold"]:-abp-contains(Boost))
+discord.com#?#div[style="width: 100%;"]:-abp-has(button[class*="colorBrand"]:-abp-contains(Find emojis))
+discord.com#?#form[class*="formWithLoadedChatInput"]:-abp-has(div[class*="innerDisabled"])
+discord.com##[class*="premiumIcon"]
+discord.com##[class*="questsIcon"]
+discord.com##[class*="popover--video"]
+discord.com#?#div[data-settings-sidebar-item*="private_browsing"]
+discord.com##ul[aria-label*="Payment"]
