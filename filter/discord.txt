@@ -1,4 +1,5 @@
 discord.com##*:style(border-radius: 0% !important)
+discord.com##span:style(font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', 'Nirmala UI', 'Yu Gothic' !important)
 
 discord.com#?#[class*="reaction"]:-abp-has([class*="burstGlow"])
 discord.com#?#li:-abp-has(> button > div[class*="emojiLockIconContainer"])
