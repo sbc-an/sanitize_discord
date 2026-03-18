@@ -1,0 +1,26 @@
+x.com##*:style(border-radius: 0% !important)
+
+x.com#?#div:-abp-has(> p:-abp-contains(Power-ups))
+x.com#?#div:-abp-has(> div[data-testid*="news"])
+x.com#?#div:-abp-has(> section[role="region"] > div[aria-label*="Trending"])
+x.com#?#div:-abp-has(> div > aside[aria-label*="Who to follow"])
+x.com#?#div[style*="bottom"]:-abp-has(div[data-testid*="Grok"])
+x.com#?#div[style*="bottom"]:-abp-has(div[data-testid*="chat"])
+x.com##a[aria-label*="Grok"]
+x.com##a[aria-label*="Creator Studio"]
+x.com##a[aria-label*="Premium"]
+x.com#?#div:-abp-has(> button[aria-label*="Grok"])
+x.com#?#header > div:style(width: 50px !important)
+x.com#?#header > div > div > div:style(width: 50px !important)
+x.com#?#main:style(width: 100% !important)
+x.com#?#main > div:style(width: 100% !important)
+x.com#?#main div[data-testid*="primaryColumn"]:style(max-width: 80% !important)
+x.com#?#main div[data-testid*="sidebarColumn"]:style(width: 20% !important)
+x.com#?#main div[data-testid*="sidebarColumn"] > div > div:style(width: 20% !important)
+x.com#?#div[aria-label*="Trending"] > div > div:style(width: 20% !important)
+x.com#?#div > nav[aria-label*="Footer"]
+x.com#?#div[aria-label*="Home timeline"] > div:style(max-width: 100% !important)
+x.com#?#div[aria-label*="Home timeline"] > div:-abp-has(nav[role*="navigation"]):style(position: static !important)
+x.com#?#div[data-testid*="cellInnerDiv"]:-abp-contains(Who to follow)
+x.com#?#div[data-testid*="cellInnerDiv"]:-abp-has(button[data-testid*="UserCell"])
+x.com#?#div[data-testid*="cellInnerDiv"]:-abp-has(a[href*="connect_people"])
