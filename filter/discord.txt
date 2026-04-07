@@ -127,6 +127,11 @@ discord.com##[class*="questsIcon"]
 discord.com##[class*="popover--video"]
 discord.com#?#div[data-settings-sidebar-item*="private_browsing"]
 discord.com##ul[aria-label*="Payment"]
-discord.com#?#[id*="popout"]:-abp-contains(Boost)
-discord.com#?#article[class*="embed"]:-abp-contains(PatchBot Premium)
+discord.com#?#article[class*="embed"]:-abp-contains(PatchBot):-abp-contains(Premium)
 discord.com#?#ul[aria-label*="Channels"] > div[class*="container"]:-abp-has(div[class*="progress"])
+discord.com#?#[aria-label*="Badges"] > div:-abp-has(a[aria-label*="Subscriber"])
+discord.com#?#a[aria-label*="Boosting"]
+discord.com#?#span > img[alt*="Booster"]
+discord.com#?#h3[class*="membersGroup"]:-abp-has(> span[class*="hiddenVisually"]):-abp-contains(Activity, )
+discord.com#?#div:-abp-has(> div[role*=listitem] > div[class*="openOnHover"]:-abp-has(span:-abp-contains(App icon for)))
+discord.com#?#div[class*="container"]:-abp-has(> div[class*="dismissButtonAnimation"])
