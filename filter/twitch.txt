@@ -1,3 +1,4 @@
+twitch.tv##*:style(border-radius: 0% !important)
 
 twitch.tv##.disclosure-tool
 twitch.tv##.paid-pinned-chat-message-list
