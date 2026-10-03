@@ -1,0 +1,72 @@
+
+twitch.tv##.disclosure-tool
+twitch.tv##.paid-pinned-chat-message-list
+twitch.tv##.marquee-animation
+twitch.tv##.rainbowEclipseRotateEffect
+twitch.tv##.simmerBackground
+twitch.tv##.cosmicBackground
+twitch.tv##.tw-dialog-layer.streamer-card__balloon
+twitch.tv##.channel-panels-container > div:nth-of-type(8)
+twitch.tv##div.player-controls:style(background: none !important)
+twitch.tv##div.top-bar:style(background: none !important)
+twitch.tv##.extensions-dock__layout
+twitch.tv##.particle-canvas
+twitch.tv##div.celebration__overlay 
+twitch.tv##.followed-side-nav-header
+twitch.tv##.hype-train__banner
+twitch.tv##.solid-purple.gift-highligh-element
+twitch.tv##.gift-highlight-gradient-container
+twitch.tv##.chat-line__try-it-icon--button
+twitch.tv##.user-notice-line--highlighted
+twitch.tv##.user-notice-line
+twitch.tv##.stream-info-card__image
+twitch.tv##.player-overlay-background:style(background: none !important)
+twitch.tv##.front-page-carousel
+twitch.tv##.tw-card
+twitch.tv##.chat-badge
+twitch.tv##.adblock-overlay
+twitch.tv##.theatre-social-panel
+twitch.tv##button[aria-label*="Get Bits"]
+twitch.tv##[class*="giftExpirationCallout"]
+twitch.tv##[class*="celebration__overlay"]
+twitch.tv##[class*="bitsRewardListItem"]
+twitch.tv##.chat-line__message--cheer-amount
+twitch.tv##div[aria-label*="Recommended Categories"]
+twitch.tv##.chat-image-wrapper
+twitch.tv##.prime-offers
+twitch.tv##.find-me
+twitch.tv##header[aria-label*="Continue Watching"]
+twitch.tv#?#:-abp-has(> header[aria-label*="Continue Watching"]) > div[class*="tw-tower"]
+twitch.tv#?#div:-abp-has(> .inline-private-callout-line__header)
+twitch.tv##.tw-root--theme-light
+twitch.tv#?#div:-abp-has(> div > div > div > div > p:-abp-contains(Featured))
+twitch.tv#?#div:-abp-has(> div > div > div > p > span:-abp-contains(Watch Streak reached))
+twitch.tv##.chat-input__badge-carousel
+twitch.tv#?#div[class*="dvrOnboardingCallout--"] > div:-abp-contains(Stream Rewind)
+twitch.tv#?#[role*="dialog"][aria-label*="Support"]
+twitch.tv#?#nav[class*="top-nav"] > div > div > div:-abp-has(button[data-a-target*="get-bits"])
+twitch.tv#?#div[data-target*="channel-header"] > div:-abp-has(button[data-a-target*="get-bits"])
+twitch.tv##[style*="hype-train"]
+ext-twitch.tv##.prime-extension-root
+twitch.tv##[class*="cheer-effect"]
+twitch.tv##[class*="brandColor"]
+twitch.tv#?#.iDMNUO:-abp-contains(Free)
+twitch.tv##.snackbar-overlay__list
+twitch.tv#?#div[class*="TopNavButton"] > div:-abp-contains(Try)
+twitch.tv#?#div[data-a-target*="button-label"] > div:-abp-has(div[data-test-selector*="bits-balance"]) > div:nth-of-type(1)
+twitch.tv#?#div[data-test-selector*="bits-balance"]
+twitch.tv#?#div:-abp-has(> div[class*="InjectLayout"]:-abp-has(> button[class*="ScCoreButton"]:-abp-has(> div[class*="ScCoreButtonLabel"]:-abp-has(> div[data-a-target*="tw-core-button-label-text"]:-abp-has(> div))))):nth-of-type(1)
+twitch.tv#?#button[class*="rewardFilterTab"][data-a-target*="power-ups"]
+twitch.tv#?#div[class*="rewards-list"] > div[class*="Layout"]:-abp-has(> p[class*="CoreText"]:-abp-contains(Power-ups))
+twitch.tv#?#.community-highlight:-abp-contains(Sub for)
+twitch.tv#?#div[class*="chat-room__content"] > div:-abp-has(button[aria-label*="Leaderboard"])
+twitch.tv#?#div[style*="max-height: 340px"]:-abp-has(video)
+twitch.tv##.subtember2025-button
+*#?#div[class*="bttv-Panel-module"][data-setting-panel-id*="subscriptionBadge"]
+*#?#div[class*="bttv-Panel-module"][data-setting-panel-id*="usernameEffect"]
+*#?#div[class*="bttv-Panel-module"][data-setting-panel-id*="chatbots"]
+twitch.tv#?#div[data-a-target*="button-label-text"]:-abp-contains(Sub)
+twitch.tv#?#div[class*="chat-input__textarea"] > div:-abp-has(> div > div[id*="bttv-emote"])
+twitch.tv#?#div[class*="chat-room"] > div:-abp-contains(Create a Clip)
+
+
