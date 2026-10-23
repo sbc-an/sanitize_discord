@@ -3,7 +3,7 @@ discord.com##span:style(font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', '
 
 discord.com#?#[class*="reaction"]:-abp-has([class*="burstGlow"])
 discord.com#?#li:-abp-has(> button > div[class*="emojiLockIconContainer"])
-discord.com#?#div:-abp-has(> div > div > div[class*="categoryItemLockIconContainer"])
+discord.com#?#div:-abp-has(> div > div[class*="categoryItemLockIconContainer"])
 discord.com##[class*="channelAppLauncher"]
 discord.com##div[class*="buttonsInner"] > div[class*="separator"]
 discord.com#?#div[aria-label*="Message Actions"] > div[class*="buttonsInner"][class*="popover"] > span:-abp-has(> div[aria-label*="Add Reaction"])
@@ -148,3 +148,8 @@ discord.com#?#div[id*="popout"]:-abp-contains(wear a tag)
 discord.com#?#div[class*="fadeIn"][style*="linear-gradient"]:-abp-has(> div[class*="videoContainer"])
 discord.com#?#div[id*="popout"]:-abp-contains(Gift)
 discord.com##div[data-testid*="quest-bar"]
+discord.com#?#div[id*="popout"]:-abp-contains(Orbs)
+discord.com#?#div[id*="popout"]:-abp-contains(™):-abp-contains($)
+discord.com#?#div[class*="members"] > div > h3:-abp-has(span:-abp-contains(Activity —))
+discord.com#?#div[id*=popout] > div[data-mana-component*="popover"]:-abp-contains(Browse Badges)
+

@@ -60,14 +60,16 @@ twitch.tv#?#div:-abp-has(> div[class*="InjectLayout"]:-abp-has(> button[class*="
 twitch.tv#?#button[class*="rewardFilterTab"][data-a-target*="power-ups"]
 twitch.tv#?#div[class*="rewards-list"] > div[class*="Layout"]:-abp-has(> p[class*="CoreText"]:-abp-contains(Power-ups))
 twitch.tv#?#.community-highlight:-abp-contains(Sub for)
-twitch.tv#?#div[class*="chat-room__content"] > div:-abp-has(button[aria-label*="Leaderboard"])
+twitch.tv#?#div[class*="chat-room__content"] > div:-abp-has(button[aria-label*="leaderboard"])
 twitch.tv#?#div[style*="max-height: 340px"]:-abp-has(video)
 twitch.tv##.subtember2025-button
 *#?#div[class*="bttv-Panel-module"][data-setting-panel-id*="subscriptionBadge"]
 *#?#div[class*="bttv-Panel-module"][data-setting-panel-id*="usernameEffect"]
 *#?#div[class*="bttv-Panel-module"][data-setting-panel-id*="chatbots"]
+*#?#div[class*="bttv-Panel-module"][data-setting-panel-id*="usernameHoverEffect"]
 twitch.tv#?#div[data-a-target*="button-label-text"]:-abp-contains(Sub)
 twitch.tv#?#div[class*="chat-input__textarea"] > div:-abp-has(> div > div[id*="bttv-emote"])
 twitch.tv#?#div[class*="chat-room"] > div:-abp-contains(Create a Clip)
+twitch.tv#?#div[data-test-selector*="video-player"] > div > div:-abp-has(span:-abp-contains(Advertisement))
 
 
